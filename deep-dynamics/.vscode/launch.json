@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug train.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/deep_dynamics/model/train.py",
+            "args": [
+                "/app/deep_dynamics/cfgs/model/deep_dynamics.yaml",
+                "/app/deep_dynamics/data/DYN-PP-ETHZ_5.npz",
+                "my_first_experiments1"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
